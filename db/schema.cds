@@ -8,7 +8,7 @@ entity Rounds : managed {
   
 }
 
-entity Holes : managed {
+entity Holes {
   key round_ID : UUID;
   key ID : UUID;
   score : Integer;
