@@ -13,6 +13,7 @@ entity Holes : managed {
   key ID : UUID;
   score : Integer;
   par : Integer;
+  result: String;
   shots : Composition of many Shots on shots.hole = $self.ID
 }
 
